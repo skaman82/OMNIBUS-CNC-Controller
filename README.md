@@ -8,7 +8,7 @@ CNC Control Project (GRBL ans ESTLCAM based)
 • Inputs 1-3 have selectable voltage (5/12v) so you can connect inductive proximity sensors directly</br>
 • VFD outputs (Spindle ON/OFF and RPM control)</br>
 • 5V PWM Output</br>
-• 3 Outputs for Relais - the outputs have selectable voltage (5/12v) - OUT3 is automatically enabled on spindle ON</br>
+• 3 Outputs for relays - the outputs have selectable voltage (5/12v) - OUT3 is automatically enabled on spindle ON</br>
 • Feed/Speed override connectors (JST XH 3P)</br>
 • Header for Bluetooth serial module (HC-05)</br>
 • Screw-Terminals for easy connection</br>
@@ -21,7 +21,7 @@ CNC Control Project (GRBL ans ESTLCAM based)
 • All inputs are isolated with optocouplers</br>
 • VFD outputs (Spindle ON/OFF and RPM control)</br>
 • 5V PWM Output</br>
-• 2 Outputs for Relais (SPINDLE_RELAIS / COOLANT) - the outputs have selectable voltage (5/12v) - SPINDLE RELAIS is automatically enabled on spindle ON</br>
+• 2 Outputs for relay (SPINDLE_RELAIS / COOLANT) - the outputs have selectable voltage (5/12v) - SPINDLE RELAY is automatically enabled on spindle ON</br>
 • Header for Bluetooth serial module (HC-05)</br>
 • Header for offline controller</br>
 • Screw-Terminals for easy connection</br>
