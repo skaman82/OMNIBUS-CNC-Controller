@@ -26,6 +26,8 @@ CNC Control Project (GRBL and ESTLCAM based). Please dont' sell the boards publi
 • Header for offline controller</br>
 • Screw-Terminals for easy connection</br>
 • Connector for the DRV-Shield</br>
+
+NOTE: To use the "SPINDLE RELAY" and "VFD RUN" Outputs, please uncomment "define USE_SPINDLE_DIR_AS_ENABLE_PIN" in the GRBL config.h file.
 </br>
 ## OMNIBUS DRV SHIELD (mounts on top the controll PCB with spacers)</br>
 <img src="https://raw.githubusercontent.com/skaman82/OMNIBUS-CNC-Controller/main/Images/OMNIBUS%20Stepper%20board%20v2_t.png"/></br>
