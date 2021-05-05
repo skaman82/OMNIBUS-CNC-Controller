@@ -215,7 +215,7 @@
 <text x="50.292" y="71.755" size="0.889" layer="25" font="vector" ratio="15" rot="SR180" align="bottom-center">GND</text>
 <text x="45.085" y="71.755" size="0.889" layer="25" font="vector" ratio="15" rot="SR180" align="bottom-center">IN</text>
 <text x="40.132" y="71.755" size="0.889" layer="25" font="vector" ratio="15" rot="SR180" align="bottom-center">VSEL</text>
-<text x="45.085" y="69.977" size="1.397" layer="25" font="vector" ratio="15" rot="SR180" align="bottom-center">X-LIMIT (IN3)</text>
+<text x="45.085" y="69.977" size="1.397" layer="25" font="vector" ratio="15" rot="SR180" align="bottom-center">X-LIMIT (IN1)</text>
 <text x="30.353" y="1.143" size="1.397" layer="25" font="vector" ratio="15" align="bottom-center">VFD RUN</text>
 <text x="60.96" y="1.143" size="1.397" layer="25" font="vector" ratio="15" align="bottom-center">HOLD</text>
 <text x="71.12" y="1.143" size="1.397" layer="25" font="vector" ratio="15" align="bottom-center">RESUME</text>
