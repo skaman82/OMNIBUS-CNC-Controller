@@ -3,7 +3,7 @@ CNC Control Project (GRBL and ESTLCAM based)
 
 ## OMNIBUS ESTLCAM Controller</br>
 <img src="https://raw.githubusercontent.com/skaman82/OMNIBUS-CNC-Controller/main/Images/OMNIBUS%20EstlCam%20board%20v3_t.png"/></br>
-• 8 inputs for sensors and buttons (IN6 is usable if you remoove the LED from the Nano)</br>
+• 8 inputs for sensors and buttons (IN6 is usable if you remoove the LED "L" from the Nano)</br>
 • All inputs are isolated with optocouplers</br>
 • Inputs 1-3 have selectable voltage (5/12v) so you can connect inductive proximity sensors directly</br>
 • VFD outputs (Spindle ON/OFF and RPM control)</br>
