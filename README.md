@@ -1,5 +1,5 @@
 # OMNIBUS-CNC-Controller (WORK IN PROGRESS)
-CNC Control Project (GRBL and ESTLCAM based). Please dont' sell the boards published here withou my consent.
+CNC Control Project (GRBL and ESTLCAM based). Please dont' sell the boards published here without my consent.
 
 ## OMNIBUS ESTLCAM Controller</br>
 <img src="https://raw.githubusercontent.com/skaman82/OMNIBUS-CNC-Controller/main/Images/OMNIBUS%20EstlCam%20board%20v3_t.png"/></br>
