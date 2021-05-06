@@ -39,3 +39,6 @@ NOTE: To use the "SPINDLE RELAY" and "VFD RUN" Outputs, please uncomment "define
 • 12V fan header</br>
 • 12V Power supply for the OMNIBUS controller (so you don't need an extra 12v PSU for the controll board)</br>
 • Screw-Terminals for easy connection</br>
+
+NOTE: If powerting the OMNIBUS Controller with the DRV Shield, use a heatsink on the 12V LDO and provide good airflow - the LDO is getting hot and will
+shut down if thermal protection kicks in.
