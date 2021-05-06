@@ -30947,7 +30947,7 @@ CONN_03
 <part name="K7" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710005" device=""/>
 <part name="K8" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710005" device=""/>
 <part name="K9" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710005" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="LASER-ON" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="blue"/>
@@ -31975,14 +31975,14 @@ CONN_03
 </net>
 <net name="L_SW" class="1">
 <segment>
-<label x="218.44" y="144.78" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="218.44" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="144.78" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="LASER-ON" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
-<junction x="210.82" y="132.08"/>
-<pinref part="J1" gate="J$1" pin="3"/>
+<wire x1="187.96" y1="132.08" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="121.92" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="210.82" y1="124.46" x2="210.82" y2="127" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="124.46" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
+<junction x="210.82" y="124.46"/>
 </segment>
 </net>
 <net name="5VPWM" class="1">
@@ -32057,13 +32057,6 @@ CONN_03
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="114.3" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 <label x="226.06" y="106.68" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="N$4" class="1">
-<segment>
-<wire x1="210.82" y1="121.92" x2="210.82" y2="127" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -32154,6 +32147,15 @@ CONN_03
 <wire x1="177.8" y1="233.68" x2="175.26" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="X" gate="G$1" pin="!SLP"/>
 <wire x1="177.8" y1="231.14" x2="175.26" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="1">
+<segment>
+<pinref part="J1" gate="J$1" pin="3"/>
+<wire x1="218.44" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="144.78" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<label x="218.44" y="144.78" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
