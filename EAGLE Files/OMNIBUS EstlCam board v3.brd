@@ -2444,7 +2444,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="63.5" y="67.945" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LTV-847S/?ref=eda" x="63.5" y="67.945" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U2" library="L7805ACD2T-TR" package="TO254P1515X470-3N" value="L7805ACD2T-TR" x="26.797" y="22.86" smashed="yes" rot="R90">
+<element name="U2" library="L7805ACD2T-TR" package="TO254P1515X470-3N" value="MC7805C" x="26.797" y="22.86" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="90.297" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A D2PAK " x="90.297" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="STMicroelectronics" x="90.297" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2973,7 +2973,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R2" pad="2"/>
 <contactref element="D1" pad="A"/>
-<wire x1="67.498" y1="35.56" x2="71.594" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="67.498" y1="35.56" x2="71.594" y2="35.56" width="0.3048" layer="1"/>
 </signal>
 <signal name="IN_VCC" class="1">
 <contactref element="IN_V_SEL" pad="2"/>

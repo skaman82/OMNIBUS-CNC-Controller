@@ -2418,7 +2418,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="13.97" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LTV-847S/?ref=eda" x="13.97" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U2" library="L7805ACD2T-TR" package="TO254P1515X470-3N" value="L7805ACD2T-TR" x="30.226" y="20.32" smashed="yes">
+<element name="U2" library="L7805ACD2T-TR" package="TO254P1515X470-3N" value="MC7805C" x="30.226" y="20.32" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="54.356" y="-43.18" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A D2PAK " x="54.356" y="-43.18" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="STMicroelectronics" x="54.356" y="-43.18" size="1.778" layer="27" display="off"/>
