@@ -3,7 +3,7 @@
 <eagle version="9.3.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -3485,7 +3485,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="6.35" y="49.403" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="9.3726" y="46.8884" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="RAW1" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="38.1" y="63.5" smashed="yes" rot="R180">
+<element name="PWM" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="38.1" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="43.1" y="69.528" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330" x="22.86" y="46.99" smashed="yes" rot="R180">
@@ -3494,7 +3494,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="22.86" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="23.495" y="49.53" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="5V" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="17.78" y="52.07" smashed="yes">
+<element name="5V" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="green" x="17.78" y="52.07" smashed="yes">
 <attribute name="NAME" x="17.399" y="49.53" size="0.889" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="20.32" y="50.8" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3504,7 +3504,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="22.86" y="38.862" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="23.495" y="52.832" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="12V" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="15.24" y="52.07" smashed="yes" rot="R180">
+<element name="12V" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="green" x="15.24" y="52.07" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.859" y="49.657" size="0.889" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="12.7" y="53.34" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -3514,7 +3514,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-1.143" y="42.799" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.827" y="42.164" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="PWR" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="12.7" y="52.07" smashed="yes">
+<element name="PWR" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="green" x="12.7" y="52.07" smashed="yes">
 <attribute name="NAME" x="12.192" y="49.657" size="0.889" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="15.24" y="50.8" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3652,7 +3652,7 @@ design rules under a new name.</description>
 <contactref element="K9" pad="1"/>
 <contactref element="K7" pad="1"/>
 <contactref element="R2" pad="2"/>
-<contactref element="RAW1" pad="1"/>
+<contactref element="PWM" pad="1"/>
 <contactref element="C5" pad="-"/>
 <contactref element="12V" pad="C"/>
 <contactref element="PWR" pad="C"/>
@@ -4152,7 +4152,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="5VPWM" class="1">
 <contactref element="R3" pad="2"/>
-<contactref element="RAW1" pad="2"/>
+<contactref element="PWM" pad="2"/>
 <wire x1="35.6" y1="63.5" x2="35.56" y2="63.5" width="0.3048" layer="16"/>
 <wire x1="64.836" y1="46.99" x2="65.217" y2="47.371" width="0.381" layer="1"/>
 <wire x1="54.102" y1="46.99" x2="64.836" y2="46.99" width="0.381" layer="1"/>

@@ -30901,13 +30901,13 @@ CONN_03
 <part name="LASER-ON" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="blue"/>
 <part name="D2" library="SS54" deviceset="SS54" device="" value="SS310"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-8.5" package3d_urn="urn:adsk.eagle:package:23374/1" value="100uf 50v"/>
-<part name="RAW1" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
+<part name="PWM" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
-<part name="5V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="5V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="green"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="12V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="12V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="green"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
-<part name="PWR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="PWR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="green"/>
 <part name="U2" library="L7805ACD2T-TR" deviceset="L7805ACD2T-TR" device=""/>
 <part name="SUPPLY1" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.33uf 50v"/>
@@ -31080,7 +31080,7 @@ CONN_03
 <attribute name="NAME" x="107.823" y="257.0226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="107.823" y="251.9426" size="1.778" layer="96"/>
 </instance>
-<instance part="RAW1" gate="G$1" x="381" y="106.68" smashed="yes" rot="R90">
+<instance part="PWM" gate="G$1" x="381" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="378" y="106.68" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="388.62" y="106.68" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -31356,7 +31356,7 @@ CONN_03
 </segment>
 <segment>
 <wire x1="381" y1="106.68" x2="381" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="RAW1" gate="G$1" pin="1"/>
+<pinref part="PWM" gate="G$1" pin="1"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -31940,7 +31940,7 @@ CONN_03
 <segment>
 <wire x1="383.54" y1="106.68" x2="383.54" y2="104.14" width="0.1524" layer="91"/>
 <label x="383.54" y="104.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="RAW1" gate="G$1" pin="2"/>
+<pinref part="PWM" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <label x="208.28" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>

@@ -2399,7 +2399,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="K1" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="7.62" y="15.24" smashed="yes" rot="R270"/>
+<element name="POW" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="7.62" y="15.24" smashed="yes" rot="R270"/>
 <element name="TB1" library="ARDUINO_NANO-2" package="SHIELD_ARDUINO_NANO" value="ARDUINO_NANO" x="60.96" y="46.99" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Unavailable" x="30.48" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" ATmega4809 Arduino Nano Every with Headers AVR® AVR MCU 8-Bit Embedded Evaluation Board " x="30.48" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2471,7 +2471,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="92" x="7.747" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="11.557" y="58.42" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="K2" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="691131710003" x="44.958" y="63.5" smashed="yes"/>
+<element name="IN1" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="KF301-3P" x="44.958" y="63.5" smashed="yes"/>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="30.48" y="56.642" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.21" y="55.372" size="0.889" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="86" x="30.48" y="56.642" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2490,8 +2490,8 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="20.32" y="56.642" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.86" y="55.372" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="K3" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="691131710003" x="29.845" y="63.5" smashed="yes"/>
-<element name="K4" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="691131710003" x="14.732" y="63.5" smashed="yes"/>
+<element name="IN2" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="KF301-3P" x="29.845" y="63.5" smashed="yes"/>
+<element name="IN3" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="KF301-3P" x="14.732" y="63.5" smashed="yes"/>
 <element name="U4" library="LTV-847S" package="SOIC254P1016X460-16N" value="LTV-847S" x="72.39" y="27.94" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Bad" x="46.99" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5000Vrms 4 Channel 16-SMD " x="46.99" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2526,13 +2526,13 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="83.82" y="62.992" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="76.2" y="18.542" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="IN4" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="50.8" y="7.62" smashed="yes" rot="R180"/>
-<element name="IN5" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="60.96" y="7.62" smashed="yes" rot="R180"/>
-<element name="IN6" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="71.12" y="7.62" smashed="yes" rot="R180"/>
-<element name="IN7" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="81.28" y="7.62" smashed="yes" rot="R180"/>
-<element name="STEP" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="691131710003" x="60.071" y="63.5" smashed="yes" rot="R180"/>
-<element name="ON_OFF" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="30.48" y="7.62" smashed="yes"/>
-<element name="PWM" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="40.64" y="7.62" smashed="yes" rot="R180"/>
+<element name="IN4" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="50.8" y="7.62" smashed="yes" rot="R180"/>
+<element name="IN5" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="60.96" y="7.62" smashed="yes" rot="R180"/>
+<element name="IN6" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="71.12" y="7.62" smashed="yes" rot="R180"/>
+<element name="IN7" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="81.28" y="7.62" smashed="yes" rot="R180"/>
+<element name="STEP" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="KF301-3P" x="60.071" y="63.5" smashed="yes" rot="R180"/>
+<element name="VFD" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="30.48" y="7.62" smashed="yes"/>
+<element name="RPM" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="40.64" y="7.62" smashed="yes" rot="R180"/>
 <element name="U5" library="PC817X3NSZ1B" package="DIP762W50P254L495H455Q4" value="PC817X3NSZ1B" x="43.18" y="18.542" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Bad" x="43.18" y="18.542" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 1 Channel 4-DIP " x="43.18" y="18.542" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2573,11 +2573,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="48.26" y="23.495" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="50.8" y="22.225" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="OUT2" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="691131710003" x="7.62" y="42.926" smashed="yes" rot="R90">
+<element name="OUT2" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="KF301-3P" x="7.62" y="42.926" smashed="yes" rot="R90">
 <attribute name="VALUE" x="13.648" y="35.426" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="OUT3" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="691131710003" x="7.62" y="27.813" smashed="yes" rot="R90"/>
-<element name="BT" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="90.17" y="35.56" smashed="yes" rot="R180">
+<element name="OUT1" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710003" value="KF301-3P" x="7.62" y="27.813" smashed="yes" rot="R90"/>
+<element name="BT" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="PINHEAD" x="90.17" y="35.56" smashed="yes" rot="R180">
 <attribute name="POPULARITY" value="91" x="90.17" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="95.25" y="38.735" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2611,7 +2611,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="16.764" y="27.178" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="14.224" y="29.718" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="RESET" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="87.63" y="26.67" smashed="yes" rot="R270">
+<element name="RESET" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="JST XH" x="87.63" y="26.67" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="87.63" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="87.63" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="87.63" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2624,10 +2624,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="86.36" y="42.545" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="86.995" y="45.085" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="ON_OFF1" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="82.804" y="63.5" smashed="yes" rot="R180">
+<element name="DIR1" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="82.804" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="87.804" y="69.528" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="ON_OFF2" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="72.644" y="63.5" smashed="yes" rot="R180">
+<element name="DIR2" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="72.644" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="77.644" y="69.528" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="OFFLINE" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X04" package3d_urn="urn:adsk.eagle:package:22461/2" value="" x="90.17" y="19.05" smashed="yes">
@@ -2635,7 +2635,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="47" x="90.17" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="85.09" y="14.605" size="1.27" layer="27"/>
 </element>
-<element name="IN1" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="89.027" y="50.546" smashed="yes" rot="R270">
+<element name="CON" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="89.027" y="50.546" smashed="yes" rot="R270">
 <attribute name="VALUE" x="82.999" y="55.546" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U8" library="L78L05ACU" package="SOT89" value="L78L05ACU" x="74.93" y="46.99" smashed="yes" rot="R90">
@@ -2682,7 +2682,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="48.26" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="45.72" y="31.75" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="42.545" y="27.813" smashed="yes" rot="R270">
+<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="PINHEAD" x="42.545" y="27.813" smashed="yes" rot="R270">
 <attribute name="POPULARITY" value="98" x="42.545" y="27.813" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="39.37" y="30.353" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2696,7 +2696,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="64.77" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="66.675" y="46.355" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IN2" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="691131710002" x="20.32" y="7.62" smashed="yes">
+<element name="PWM" library="Wurth_Terminal_Blocks_Connectors_rev15d" package="691131710002" value="KF301-2P" x="20.32" y="7.62" smashed="yes">
 <attribute name="VALUE" x="15.32" y="1.592" size="1.27" layer="27"/>
 </element>
 <element name="RED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="13.97" y="40.132" smashed="yes">
@@ -2714,16 +2714,16 @@ design rules under a new name.</description>
 <contactref element="TB1" pad="18"/>
 </signal>
 <signal name="GND">
-<contactref element="K1" pad="2"/>
+<contactref element="POW" pad="2"/>
 <contactref element="U2" pad="3"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C1" pad="2"/>
-<contactref element="K2" pad="3"/>
+<contactref element="IN1" pad="3"/>
 <contactref element="U1" pad="13"/>
 <contactref element="U1" pad="11"/>
 <contactref element="U1" pad="9"/>
-<contactref element="K3" pad="3"/>
-<contactref element="K4" pad="3"/>
+<contactref element="IN2" pad="3"/>
+<contactref element="IN3" pad="3"/>
 <contactref element="TB1" pad="4"/>
 <contactref element="TB1" pad="29"/>
 <contactref element="U4" pad="15"/>
@@ -2732,9 +2732,9 @@ design rules under a new name.</description>
 <contactref element="U4" pad="9"/>
 <contactref element="U6" pad="8"/>
 <contactref element="R14" pad="2"/>
-<contactref element="PWM" pad="1"/>
+<contactref element="RPM" pad="1"/>
 <contactref element="OUT2" pad="1"/>
-<contactref element="OUT3" pad="1"/>
+<contactref element="OUT1" pad="1"/>
 <contactref element="U3" pad="4"/>
 <contactref element="R16" pad="2"/>
 <contactref element="U3" pad="3"/>
@@ -2764,7 +2764,7 @@ design rules under a new name.</description>
 <contactref element="BT" pad="3"/>
 <contactref element="OFFLINE" pad="3"/>
 <contactref element="OFFLINE" pad="4"/>
-<contactref element="IN1" pad="1"/>
+<contactref element="CON" pad="1"/>
 <contactref element="U8" pad="2"/>
 <contactref element="U7" pad="3"/>
 <contactref element="C3" pad="1"/>
@@ -2772,7 +2772,7 @@ design rules under a new name.</description>
 <contactref element="U7" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="R12" pad="1"/>
-<contactref element="IN2" pad="1"/>
+<contactref element="PWM" pad="1"/>
 <contactref element="IN6" pad="1"/>
 <contactref element="IN7" pad="1"/>
 <contactref element="IN5" pad="1"/>
@@ -2812,7 +2812,7 @@ design rules under a new name.</description>
 <contactref element="OUT_V_SEL" pad="3"/>
 <contactref element="U3" pad="8"/>
 <contactref element="C4" pad="+"/>
-<contactref element="IN1" pad="2"/>
+<contactref element="CON" pad="2"/>
 <contactref element="U8" pad="3"/>
 <contactref element="C3" pad="2"/>
 <contactref element="D2" pad="C"/>
@@ -2957,9 +2957,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="IN_VCC" class="1">
 <contactref element="IN_V_SEL" pad="2"/>
-<contactref element="K2" pad="1"/>
-<contactref element="K3" pad="1"/>
-<contactref element="K4" pad="1"/>
+<contactref element="IN1" pad="1"/>
+<contactref element="IN2" pad="1"/>
+<contactref element="IN3" pad="1"/>
 <wire x1="7.747" y1="55.245" x2="7.747" y2="61.468" width="0.635" layer="16"/>
 <wire x1="9.732" y1="63.453" x2="9.732" y2="63.5" width="0.635" layer="16"/>
 <wire x1="7.747" y1="61.468" x2="9.732" y2="63.453" width="0.635" layer="16"/>
@@ -2981,7 +2981,7 @@ design rules under a new name.</description>
 <wire x1="50.8" y1="52.07" x2="50.8" y2="54.61" width="0.635" layer="1"/>
 </signal>
 <signal name="INPUT1" class="2">
-<contactref element="K2" pad="2"/>
+<contactref element="IN1" pad="2"/>
 <contactref element="U1" pad="4"/>
 <wire x1="27.94" y1="52.8" x2="27.94" y2="59.182" width="0.635" layer="1"/>
 <wire x1="27.94" y1="59.182" x2="29.591" y2="60.833" width="0.635" layer="1"/>
@@ -3005,7 +3005,7 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="52.8" x2="20.32" y2="55.692" width="0.635" layer="1"/>
 </signal>
 <signal name="INPUT2" class="2">
-<contactref element="K3" pad="2"/>
+<contactref element="IN2" pad="2"/>
 <contactref element="U1" pad="6"/>
 <wire x1="22.86" y1="52.8" x2="22.86" y2="58.674" width="0.635" layer="1"/>
 <wire x1="22.86" y1="58.674" x2="25.146" y2="60.96" width="0.635" layer="1"/>
@@ -3014,7 +3014,7 @@ design rules under a new name.</description>
 <wire x1="29.718" y1="63.5" x2="27.178" y2="60.96" width="0.635" layer="1"/>
 </signal>
 <signal name="INPUT3" class="2">
-<contactref element="K4" pad="2"/>
+<contactref element="IN3" pad="2"/>
 <contactref element="U1" pad="8"/>
 <wire x1="17.145" y1="61.087" x2="17.145" y2="53.435" width="0.635" layer="1"/>
 <wire x1="17.145" y1="53.435" x2="17.78" y2="52.8" width="0.635" layer="1"/>
@@ -3086,7 +3086,7 @@ design rules under a new name.</description>
 <contactref element="TB1" pad="14"/>
 <contactref element="U7" pad="2"/>
 <contactref element="R12" pad="2"/>
-<contactref element="IN2" pad="2"/>
+<contactref element="PWM" pad="2"/>
 <wire x1="46.609" y1="52.578" x2="45.72" y2="53.467" width="0.635" layer="16"/>
 <wire x1="45.72" y1="54.61" x2="45.72" y2="53.467" width="0.635" layer="16"/>
 <wire x1="46.609" y1="52.578" x2="26.162" y2="32.131" width="0.635" layer="16"/>
@@ -3197,14 +3197,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="X_DIR" class="2">
 <contactref element="TB1" pad="8"/>
-<contactref element="ON_OFF1" pad="2"/>
+<contactref element="DIR1" pad="2"/>
 <wire x1="80.304" y1="63.5" x2="73.954" y2="57.15" width="0.635" layer="16"/>
 <wire x1="63.5" y1="57.15" x2="60.96" y2="54.61" width="0.635" layer="16"/>
 <wire x1="73.954" y1="57.15" x2="63.5" y2="57.15" width="0.635" layer="16"/>
 </signal>
 <signal name="Y_DIR" class="2">
 <contactref element="TB1" pad="9"/>
-<contactref element="ON_OFF2" pad="1"/>
+<contactref element="DIR2" pad="1"/>
 <wire x1="75.144" y1="63.5" x2="69.937" y2="58.293" width="0.635" layer="16"/>
 <wire x1="58.51976875" y1="54.61" x2="58.42" y2="54.61" width="0.635" layer="16"/>
 <wire x1="69.937" y1="58.293" x2="62.20276875" y2="58.293" width="0.635" layer="16"/>
@@ -3212,7 +3212,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="Z_DIR" class="2">
 <contactref element="TB1" pad="10"/>
-<contactref element="ON_OFF2" pad="2"/>
+<contactref element="DIR2" pad="2"/>
 <wire x1="70.144" y1="63.5" x2="66.08" y2="59.436" width="0.635" layer="16"/>
 <wire x1="55.97976875" y1="54.61" x2="55.88" y2="54.61" width="0.635" layer="16"/>
 <wire x1="66.08" y1="59.436" x2="60.80576875" y2="59.436" width="0.635" layer="16"/>
@@ -3309,7 +3309,7 @@ design rules under a new name.</description>
 <signal name="OUT_COM" class="1">
 <contactref element="U6" pad="9"/>
 <contactref element="OUT_V_SEL" pad="2"/>
-<contactref element="OUT3" pad="3"/>
+<contactref element="OUT1" pad="3"/>
 <contactref element="OUT2" pad="3"/>
 <wire x1="21.971" y1="34.163" x2="23.241" y2="34.163" width="0.635" layer="1"/>
 <wire x1="26.035" y1="36.957" x2="35.306" y2="36.957" width="0.635" layer="1"/>
@@ -3327,7 +3327,7 @@ design rules under a new name.</description>
 <wire x1="3.81" y1="34.925" x2="3.81" y2="45.974" width="0.635" layer="16"/>
 </signal>
 <signal name="OUT1" class="2">
-<contactref element="OUT3" pad="2"/>
+<contactref element="OUT1" pad="2"/>
 <contactref element="U6" pad="12"/>
 <contactref element="U6" pad="10"/>
 <contactref element="U6" pad="11"/>
@@ -3392,7 +3392,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DCOM" class="1">
 <contactref element="U5" pad="3"/>
-<contactref element="ON_OFF" pad="1"/>
+<contactref element="VFD" pad="1"/>
 <wire x1="41.91" y1="14.732" x2="41.91" y2="13.716" width="0.635" layer="1"/>
 <wire x1="41.91" y1="13.716" x2="39.751" y2="11.557" width="0.635" layer="1"/>
 <wire x1="39.751" y1="11.557" x2="34.417" y2="11.557" width="0.635" layer="1"/>
@@ -3403,7 +3403,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="FOR" class="1">
 <contactref element="U5" pad="4"/>
-<contactref element="ON_OFF" pad="2"/>
+<contactref element="VFD" pad="2"/>
 <wire x1="44.45" y1="14.732" x2="44.45" y2="13.208" width="0.635" layer="1"/>
 <wire x1="44.45" y1="13.208" x2="41.529" y2="10.287" width="0.635" layer="1"/>
 <wire x1="35.647" y1="10.287" x2="32.98" y2="7.62" width="0.635" layer="1"/>
@@ -3415,7 +3415,7 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="R3" pad="2"/>
 <contactref element="C7" pad="1"/>
-<contactref element="PWM" pad="2"/>
+<contactref element="RPM" pad="2"/>
 <wire x1="50.8" y1="29.53" x2="50.8" y2="24.445" width="0.635" layer="1"/>
 <wire x1="53.34" y1="24.257" x2="54.68" y2="24.257" width="0.635" layer="1"/>
 <wire x1="53.34" y1="24.257" x2="50.988" y2="24.257" width="0.635" layer="1"/>
@@ -3487,7 +3487,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="EN" class="1">
 <contactref element="TB1" pad="11"/>
-<contactref element="ON_OFF1" pad="1"/>
+<contactref element="DIR1" pad="1"/>
 <wire x1="59.10216875" y1="60.706" x2="53.34" y2="54.94383125" width="0.635" layer="16"/>
 <wire x1="53.34" y1="54.61" x2="53.34" y2="54.94383125" width="0.635" layer="16"/>
 <wire x1="59.10216875" y1="60.706" x2="61.468" y2="60.706" width="0.635" layer="16"/>
@@ -3561,7 +3561,7 @@ design rules under a new name.</description>
 <wire x1="67.503" y1="45.563" x2="67.503" y2="44.643" width="0.635" layer="1"/>
 </signal>
 <signal name="RAW" class="1">
-<contactref element="K1" pad="1"/>
+<contactref element="POW" pad="1"/>
 <contactref element="D2" pad="A"/>
 <wire x1="14.437" y1="20.32" x2="11.857" y2="17.74" width="1.27" layer="1"/>
 <wire x1="11.857" y1="17.74" x2="7.62" y2="17.74" width="1.27" layer="1"/>

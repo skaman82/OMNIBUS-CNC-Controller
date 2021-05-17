@@ -20725,8 +20725,8 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY2" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="SUPPLY3" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
-<part name="IN_V_SEL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="K2" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710003" device=""/>
+<part name="IN_V_SEL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="PINHEAD"/>
+<part name="IN1" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710003" device="" value="KF301-3P"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="SUPPLY4" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
@@ -20735,8 +20735,8 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY5" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
-<part name="K3" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710003" device=""/>
-<part name="K4" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710003" device=""/>
+<part name="IN2" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710003" device="" value="KF301-3P"/>
+<part name="IN3" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710003" device="" value="KF301-3P"/>
 <part name="SUPPLY8" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="U4" library="LTV-847S" deviceset="LTV-847S" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
@@ -20747,16 +20747,16 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY10" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
-<part name="IN4" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="IN5" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="IN6" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="IN7" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="IN8" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="STEP" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710003" device=""/>
-<part name="ON_OFF" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="PWM" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
+<part name="IN4" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="IN5" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="IN6" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="IN7" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="IN8" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="STEP" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710003" device="" value="KF301-3P"/>
+<part name="VFD" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="RPM" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
 <part name="U5" library="PC817X3NSZ1B" deviceset="PC817X3NSZ1B" device=""/>
-<part name="OUT_V_SEL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="OUT_V_SEL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="PINHEAD"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220"/>
 <part name="LED2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="SML0603" package3d_urn="urn:adsk.eagle:package:13315/1"/>
 <part name="SUPPLY13" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
@@ -20770,32 +20770,32 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY16" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="SUPPLY17" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
-<part name="SPEED" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
-<part name="FEED" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
-<part name="BT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="SPEED" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1" value="JST XH"/>
+<part name="FEED" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1" value="JST XH"/>
+<part name="BT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2" value="PINHEAD"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4k7"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="22u"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="0.33uf 25v"/>
-<part name="RESET" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+<part name="RESET" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1" value="JST XH"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="ON_OFF1" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="ON_OFF2" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="ON_OFF3" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="IN1" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
+<part name="DIR2" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="DIR1" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="OUT1" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="POPW" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
 <part name="U7" library="L78L05ACU" deviceset="L78L05ACU" device=""/>
 <part name="U8" library="74AHC1G125" deviceset="74AHC1G125" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nf"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nf"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nf"/>
-<part name="PWM_OUT" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
+<part name="PWM" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
-<part name="ON_OFF4" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
-<part name="ON_OFF5" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device=""/>
+<part name="OUT2" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
+<part name="OUT3" library="Wurth_Terminal_Blocks_Connectors_rev15d" deviceset="691131710002" device="" value="KF301-2P"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ES2D" device="" package3d_urn="urn:adsk.eagle:package:43404/2" value="SS36"/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="PINHEAD"/>
 <part name="SUPPLY18" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
@@ -20868,7 +20868,7 @@ OWN POWER SUPPLY</text>
 <attribute name="NAME" x="-86.995" y="3.81" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-73.66" y="3.81" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="K2" gate="G$1" x="106.68" y="119.38" smashed="yes" rot="R90">
+<instance part="IN1" gate="G$1" x="106.68" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.68" y="119.38" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="116.84" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -20900,11 +20900,11 @@ OWN POWER SUPPLY</text>
 <instance part="SUPPLY7" gate="GND" x="129.54" y="165.1" smashed="yes">
 <attribute name="VALUE" x="127.635" y="161.925" size="1.778" layer="96"/>
 </instance>
-<instance part="K3" gate="G$1" x="124.46" y="119.38" smashed="yes" rot="R90">
+<instance part="IN2" gate="G$1" x="124.46" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.46" y="119.38" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="134.62" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="K4" gate="G$1" x="142.24" y="119.38" smashed="yes" rot="R90">
+<instance part="IN3" gate="G$1" x="142.24" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="139.24" y="119.38" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="152.4" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -20967,11 +20967,11 @@ OWN POWER SUPPLY</text>
 <attribute name="NAME" x="225.6" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="238.76" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ON_OFF" gate="G$1" x="152.4" y="71.12" smashed="yes" rot="R90">
+<instance part="VFD" gate="G$1" x="152.4" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.4" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="160.02" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PWM" gate="G$1" x="167.64" y="71.12" smashed="yes" rot="R90">
+<instance part="RPM" gate="G$1" x="167.64" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="164.64" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="175.26" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -21085,19 +21085,19 @@ OWN POWER SUPPLY</text>
 <attribute name="NAME" x="105.1814" y="11.43" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="109.982" y="11.43" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ON_OFF1" gate="G$1" x="213.36" y="71.12" smashed="yes" rot="R90">
+<instance part="DIR2" gate="G$1" x="213.36" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="210.36" y="71.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="223.52" y="71.12" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="220.726" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ON_OFF2" gate="G$1" x="198.12" y="71.12" smashed="yes" rot="R90">
+<instance part="DIR1" gate="G$1" x="198.12" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="195.12" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="205.74" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ON_OFF3" gate="G$1" x="106.68" y="71.12" smashed="yes" rot="R90">
+<instance part="OUT1" gate="G$1" x="106.68" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.68" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="114.3" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IN1" gate="G$1" x="246.38" y="71.12" smashed="yes" rot="R90">
+<instance part="POPW" gate="G$1" x="246.38" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="243.38" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="254" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -21125,7 +21125,7 @@ OWN POWER SUPPLY</text>
 <attribute name="NAME" x="-59.436" y="46.101" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-59.436" y="41.021" size="1.778" layer="96"/>
 </instance>
-<instance part="PWM_OUT" gate="G$1" x="182.88" y="71.12" smashed="yes" rot="R90">
+<instance part="PWM" gate="G$1" x="182.88" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.88" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="190.5" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -21133,11 +21133,11 @@ OWN POWER SUPPLY</text>
 <attribute name="NAME" x="-82.7786" y="146.05" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-77.978" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ON_OFF4" gate="G$1" x="121.92" y="71.12" smashed="yes" rot="R90">
+<instance part="OUT2" gate="G$1" x="121.92" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.92" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="129.54" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ON_OFF5" gate="G$1" x="137.16" y="71.12" smashed="yes" rot="R90">
+<instance part="OUT3" gate="G$1" x="137.16" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="134.16" y="71.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="144.78" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -21206,7 +21206,7 @@ OWN POWER SUPPLY</text>
 <label x="-55.88" y="60.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IN1" gate="G$1" pin="2"/>
+<pinref part="POPW" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="71.12" x2="248.92" y2="68.58" width="0.1524" layer="91"/>
 <label x="248.92" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21251,7 +21251,7 @@ OWN POWER SUPPLY</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="K2" gate="G$1" pin="3"/>
+<pinref part="IN1" gate="G$1" pin="3"/>
 <wire x1="111.76" y1="119.38" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <label x="111.76" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21276,12 +21276,12 @@ OWN POWER SUPPLY</text>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="K3" gate="G$1" pin="3"/>
+<pinref part="IN2" gate="G$1" pin="3"/>
 <wire x1="129.54" y1="119.38" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
 <label x="129.54" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K4" gate="G$1" pin="3"/>
+<pinref part="IN3" gate="G$1" pin="3"/>
 <wire x1="147.32" y1="119.38" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
 <label x="147.32" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21341,7 +21341,7 @@ OWN POWER SUPPLY</text>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PWM" gate="G$1" pin="1"/>
+<pinref part="RPM" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="71.12" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
 <label x="167.64" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21383,12 +21383,12 @@ OWN POWER SUPPLY</text>
 <label x="114.3" y="20.32" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF2" gate="G$1" pin="1"/>
+<pinref part="DIR1" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="71.12" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <label x="198.12" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IN1" gate="G$1" pin="1"/>
+<pinref part="POPW" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="71.12" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
 <label x="246.38" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21452,7 +21452,7 @@ OWN POWER SUPPLY</text>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PWM_OUT" gate="G$1" pin="1"/>
+<pinref part="PWM" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="71.12" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
 <label x="182.88" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21561,17 +21561,17 @@ OWN POWER SUPPLY</text>
 <label x="-81.28" y="-2.54" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K2" gate="G$1" pin="1"/>
+<pinref part="IN1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="119.38" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
 <label x="106.68" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K3" gate="G$1" pin="1"/>
+<pinref part="IN2" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="119.38" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
 <label x="124.46" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K4" gate="G$1" pin="1"/>
+<pinref part="IN3" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="119.38" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
 <label x="142.24" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21595,7 +21595,7 @@ OWN POWER SUPPLY</text>
 <label x="160.02" y="198.12" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K2" gate="G$1" pin="2"/>
+<pinref part="IN1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="119.38" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
 <label x="109.22" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21635,7 +21635,7 @@ OWN POWER SUPPLY</text>
 <pinref part="U1" gate="G$1" pin="C1"/>
 </segment>
 <segment>
-<pinref part="K3" gate="G$1" pin="2"/>
+<pinref part="IN2" gate="G$1" pin="2"/>
 <wire x1="127" y1="119.38" x2="127" y2="111.76" width="0.1524" layer="91"/>
 <label x="127" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21647,7 +21647,7 @@ OWN POWER SUPPLY</text>
 <pinref part="U1" gate="G$1" pin="C2"/>
 </segment>
 <segment>
-<pinref part="K4" gate="G$1" pin="2"/>
+<pinref part="IN3" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="119.38" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
 <label x="144.78" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21752,7 +21752,7 @@ OWN POWER SUPPLY</text>
 <junction x="-81.28" y="160.02"/>
 </segment>
 <segment>
-<pinref part="PWM_OUT" gate="G$1" pin="2"/>
+<pinref part="PWM" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="71.12" x2="185.42" y2="66.04" width="0.1524" layer="91"/>
 <label x="185.42" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21867,7 +21867,7 @@ OWN POWER SUPPLY</text>
 <label x="12.7" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF1" gate="G$1" pin="2"/>
+<pinref part="DIR2" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="71.12" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
 <label x="215.9" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21879,7 +21879,7 @@ OWN POWER SUPPLY</text>
 <label x="12.7" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF1" gate="G$1" pin="1"/>
+<pinref part="DIR2" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="71.12" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <label x="213.36" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -21891,7 +21891,7 @@ OWN POWER SUPPLY</text>
 <label x="12.7" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF2" gate="G$1" pin="2"/>
+<pinref part="DIR1" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="71.12" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
 <label x="200.66" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -22077,17 +22077,17 @@ OWN POWER SUPPLY</text>
 <label x="-43.18" y="-5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF3" gate="G$1" pin="1"/>
+<pinref part="OUT1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="71.12" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
 <label x="106.68" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF4" gate="G$1" pin="1"/>
+<pinref part="OUT2" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="71.12" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
 <label x="121.92" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF5" gate="G$1" pin="1"/>
+<pinref part="OUT3" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="71.12" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <label x="137.16" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -22107,7 +22107,7 @@ OWN POWER SUPPLY</text>
 <label x="15.24" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF5" gate="G$1" pin="2"/>
+<pinref part="OUT3" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="71.12" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <label x="139.7" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -22124,14 +22124,14 @@ OWN POWER SUPPLY</text>
 <label x="15.24" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF4" gate="G$1" pin="2"/>
+<pinref part="OUT2" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="71.12" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 <label x="124.46" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="OUT3" class="0">
 <segment>
-<pinref part="ON_OFF3" gate="G$1" pin="2"/>
+<pinref part="OUT1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="71.12" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <label x="109.22" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -22167,7 +22167,7 @@ OWN POWER SUPPLY</text>
 <label x="104.14" y="165.1" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF" gate="G$1" pin="1"/>
+<pinref part="VFD" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="71.12" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 <label x="152.4" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -22179,7 +22179,7 @@ OWN POWER SUPPLY</text>
 <label x="109.22" y="165.1" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ON_OFF" gate="G$1" pin="2"/>
+<pinref part="VFD" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="71.12" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
 <label x="154.94" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -22195,7 +22195,7 @@ OWN POWER SUPPLY</text>
 <junction x="-60.96" y="53.34"/>
 </segment>
 <segment>
-<pinref part="PWM" gate="G$1" pin="2"/>
+<pinref part="RPM" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="68.58" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
 <label x="170.18" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
