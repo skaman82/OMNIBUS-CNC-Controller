@@ -2,7 +2,7 @@
 CNC Control Project (GRBL and ESTLCAM based). Please dont' sell the boards published here without my consent.
 
 ## OMNIBUS ESTLCAM Controller</br>
-### Testing stage
+### FINISHED
 <img src="https://raw.githubusercontent.com/skaman82/OMNIBUS-CNC-Controller/main/Images/OMNIBUS%20EstlCam%20board%20v3_t.png"/></br>
 • 8 inputs for sensors and buttons (IN6 is usable if you remoove the LED "L" from the Nano)</br>
 • All inputs are isolated with optocouplers</br>
@@ -16,7 +16,7 @@ CNC Control Project (GRBL and ESTLCAM based). Please dont' sell the boards publi
 • Connector for the DRV-Shield</br>
 </br>
 ## OMNIBUS GRBL 1.1 Controller - also ESTLCAM compatible</br>
-### Testing stage
+### FINISHED
 <img src="https://raw.githubusercontent.com/skaman82/OMNIBUS-CNC-Controller/main/Images/OMNIBUS%20GRBL%20board%20v2_t.png"/></br>
 • Limit-Inputs XYZ have selectable voltage (5/12v) so you can connect inductive proximity sensors directly</br>
 • ABORT/HOLD/RESUME/PROBE inputs</br>
